@@ -1,0 +1,164 @@
+
+
+html {
+  font-family: "Kanit", sans-serif;
+  font-size: 16px;
+  background: #ccc5b9;
+
+}
+
+body {
+  background: gray;
+  color: #403d39;
+  max-width: 1000px;
+  
+}
+.content{
+ display: flex;
+ flex-direction: row;
+ 
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+
+
+.header {
+    font-family: 'Kanit', sans-serif;
+    background-color: #252422;
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+
+
+ h1 {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background-color: #252422; 
+     margin: 0;
+
+} 
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #252422;
+    font-family: 'Kanit', sans-serif;
+
+  }
+
+  li{
+    text-align: center;
+    padding: 10px 20px;
+
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    
+  }
+
+  .main-body {
+    display: flex; 
+    border: 2px solid black;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height:100%;
+
+  }
+
+  .story {
+
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 40px;
+    size:auto;
+    
+  }
+  
+  img {
+    width: 30%;
+    height: 30%;
+    float: right;
+
+  }
+ 
+
+  .project {
+
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 40px;
+    
+  }
+
+  .project-one {
+    size: auto;
+
+  }
+
+  .project-two {
+    size: auto;
+
+
+  }
+
+  .project-three {
+    size: auto;
+
+  }
+
+  .cover {
+    display: flex; 
+    border: 2px solid black;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    height:100%;
+
+  }
+
+  .coverphoto {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  .quote {
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 40px;
+
+  }
+
+  .coverfooter{
+    font-weight: 600;
+    font-size: large;
+    margin: auto;
+    padding-bottom: 30%;
+
+
+  }
